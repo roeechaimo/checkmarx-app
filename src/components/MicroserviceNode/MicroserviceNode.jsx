@@ -14,11 +14,6 @@ function MicroserviceNode({ data }) {
         type='target'
         position={Position.Right}
       />
-
-      {/* <Handle
-          type='source'
-          position={Position.Right}
-        /> */}
     </>
   );
 }
