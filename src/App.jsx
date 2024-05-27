@@ -22,7 +22,9 @@ function App() {
 
         <Graph />
 
-        <GraphLegend containerStyle='bg-gray-100 text-gray-900 absolute bottom-8 right-8' />
+        {!isLoading && (
+          <GraphLegend containerStyle='bg-gray-100 text-gray-900 absolute bottom-8 right-8' />
+        )}
       </div>
     </ErrorBoundary>
   );
