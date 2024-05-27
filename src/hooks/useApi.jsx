@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { AppContext } from '../contexts/AppContext';
 
-const BASE_URL = `http://localhost:3000`;
+const BASE_URL = import.meta.env.VITE_BASE_SERVER_URL;
 const API_PREFIX = '/api';
 
 async function getData({ path }) {
