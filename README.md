@@ -9,5 +9,5 @@
 - Run `npm i`
 - Run `npm run dev` and open your browser whith the following url - http://localhost:5173
 
-[NOTE]
+[!NOTE]
 A working example can be found here - https://checkmarx-app.web.app/
