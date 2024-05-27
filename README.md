@@ -7,7 +7,7 @@
 - Enter the project's root folder on your local machine.
 - Create an `.env` file in the project's root folder and add this row to the file - `VITE_BASE_SERVER_URL='http://localhost:3000'`
 - Run `npm i`
-- Run `npm run dev` and open your browser whith the following url - http://localhost:5173
+- Run `npm run dev` and open your browser with the following url - http://localhost:5173
 
 > [!NOTE]
 > A working example can be found here - https://checkmarx-app.web.app/
