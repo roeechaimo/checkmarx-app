@@ -1,5 +1,5 @@
 function Loader() {
-  return <div>Loading...</div>;
+  return <div data-testid='loading'>Loading...</div>;
 }
 
 export default Loader;

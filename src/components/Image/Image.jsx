@@ -11,6 +11,7 @@ function Image({
 }) {
   return (
     <img
+      data-testid='image'
       className={`h-${height} w-${width}`}
       alt={altText}
       src={src || fallbackImage}

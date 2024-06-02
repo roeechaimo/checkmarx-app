@@ -6,7 +6,7 @@ function ErrorFallback({ error }) {
     >
       <p>Something went wrong:</p>
 
-      <span>{error.message}</span>
+      <span data-testid='message'>{error.message}</span>
     </div>
   );
 }
